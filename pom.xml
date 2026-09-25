@@ -36,6 +36,13 @@
             <version>2.10.1</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.lenis0012.bukkit</groupId>
+            <artifactId>loginsecurity</artifactId>
+            <version>3.3.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/LoginSecurity-3.3.1.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>

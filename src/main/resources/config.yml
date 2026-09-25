@@ -1,0 +1,21 @@
+# MojangTexturesInjector Configuration
+
+proxy:
+  # If true, all Mojang API requests will route through this HTTP proxy
+  enabled: false
+  host: "127.0.0.1"
+  port: 10808
+
+network:
+  timeout-seconds: 10
+
+cache:
+  # Cache duration for player textures in hours
+  ttl-hours: 24
+
+settings:
+  # If true, injects on PlayerJoinEvent even if LoginSecurity is present
+  # If false (recommended), only injects after player passes LoginSecurity password verification
+  inject-on-join: false
+  # Send chat notification to player upon successful skin/cape injection
+  notify-player: true

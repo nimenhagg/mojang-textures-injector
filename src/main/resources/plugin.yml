@@ -1,0 +1,21 @@
+name: MojangTexturesInjector
+version: 1.0.0
+main: com.server.textures.MojangTexturesInjector
+api-version: '1.21'
+description: Injects official signed Mojang textures (including Cape) for premium players on offline-mode Paper servers.
+author: Codex
+softdepend: [LoginSecurity, SkinsRestorer]
+
+commands:
+  mojangtextures:
+    description: Mojang textures and cape commands
+    aliases: [cape, mojangskin]
+    permission: mojangtextures.use
+
+permissions:
+  mojangtextures.use:
+    description: Allows refreshing own skin and cape
+    default: true
+  mojangtextures.admin:
+    description: Allows reloading config and refreshing other players
+    default: op

@@ -1,5 +1,6 @@
 # MojangTexturesInjector
 
+[![Build Status](https://github.com/nimenhagg/mojang-textures-injector/actions/workflows/build.yml/badge.svg)](https://github.com/nimenhagg/mojang-textures-injector/actions)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Paper%20%7C%20Purpur-brightgreen.svg)]()
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21%2B-orange.svg)]()
